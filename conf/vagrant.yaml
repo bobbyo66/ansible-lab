@@ -15,15 +15,15 @@
         - 
           name: 'node-0'
           hostname: 'node-0'
-          ip: '10.0.0.11'
+          ip: '192.168.56.11'
         - 
           name: 'node-1'
           hostname: 'node-1'
-          ip: '10.0.0.12'
+          ip: '192.168.56.12'
         - 
           name: 'control-node'
           hostname: 'control-node'
-          ip: '10.0.0.10'          
+          ip: '192.168.56.10'          
   provisioner:
     - 
       type: 'hosts'
